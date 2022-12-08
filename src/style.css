@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: #e8e4e4;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    font-size: 20px;
+}
+.hero .container{
+    width: 100%;
+    max-width: 400px;
+    margin:auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color:#68B984;
+    border-radius: 15px;
+}
+.hero .container .randomNum{
+    background: #CE7777;
+    padding: 20px;
+    min-width: 100%;
+    text-align: center;
+    
+    
+}
+.hero .container .randomNum p span{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.hero .numContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0;
+    min-width: 100%;
+}
+.hero .container div{
+    width: 100%;
+    max-width: 42%;
+}
+.hero .numContainer div input{
+    padding: 8px;
+    border: none;
+    outline: none;
+    width: 100%;
+    background: #F2E5E5;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border-radius: 15px;
+}
+.hero .container button{
+    align-items: flex-end;
+    border: none;
+    outline: none;
+    background: #3D5656;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 14px;
+    width: 100%;
+    font-size: 22px;
+    cursor: pointer;
+    transition: .4s;
+    border-radius: 15px;
+}
+.hero .container button:hover{
+    background-color: black;
+    color: #FAF0D7;
+}
